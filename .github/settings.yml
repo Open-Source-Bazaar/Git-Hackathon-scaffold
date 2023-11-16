@@ -1,0 +1,13 @@
+labels:
+  - name: Team
+    color: '#50a85e'
+    description: Team registration
+  - name: Gold medal
+    color: '#ffd700'
+    description: First-class award
+  - name: Silver medal
+    color: '#bcbcbc'
+    description: Second-class award
+  - name: Bronze medal
+    color: '#a64d79'
+    description: Third-class award
