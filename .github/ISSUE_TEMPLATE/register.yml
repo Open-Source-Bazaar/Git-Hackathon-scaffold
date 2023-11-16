@@ -1,0 +1,30 @@
+# Reference: https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/syntax-for-issue-forms
+
+name: Team Registration
+description: Register a Hackathon Team
+title: "[Project & Team] "
+labels:
+  - Team
+# Reference: https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/syntax-for-githubs-form-schema
+body:
+  - type: input
+    attributes:
+      label: Team Name
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Project Name
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Project description
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Git repository URLs
+      description: One URL per line
+    validations:
+      required: true
